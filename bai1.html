@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="nameInput" type value="NVA"  placeholder="Enter your name">
+    <button id="btnClick">Click</button>
+<script>
+    var name = document.getElementById("name");
+    var btnClick = document.getElementById("btnClick");
+    function checkname() {
+        console.log( nameInput.value);
+    }
+    btnClick.onclick = checkname;
+</script>
+</body>
+</html>
